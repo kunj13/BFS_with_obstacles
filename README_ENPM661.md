@@ -63,7 +63,7 @@ Enter Y coordinate of goal position: 30
 ```
 
 🚨 **Validation:**  
-- If the **start/goal position is inside an obstacle or its clearance**, a warning is displayed, and you must re-enter valid values.
+- If the **start/goal position is inside an obstacle or its clearance**, a warning is displayed, and you must re-enter valid values. You will be prompted again to enter the values.
 - If the position is **out of canvas bounds**, you will be prompted again.
 
 ---
@@ -88,6 +88,7 @@ Once BFS completes:
    ```bash
    bfs.mp4
    ```
+3. A plot of the obstacles and the optimal trajectory (without the explored states) will also be avilable for viewing after running the final code snippet for clear visualization of the optimal trajectory generated.
 
 To play the animation: open it manually in your file explorer.
 
